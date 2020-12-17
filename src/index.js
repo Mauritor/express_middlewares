@@ -1,9 +1,9 @@
 const express = require('express');
-const morgan = require('morgan');
-const helmet = require('helmet');
-const cors = require('cors');
 const limiter = require('./limiter');
 const favicon = require('serve-favicon');
+const helmet = require('helmet');
+const morgan = require('morgan');
+const cors = require('cors');
 const path = require('path');
 
 const app = express();
